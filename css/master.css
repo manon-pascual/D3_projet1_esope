@@ -1,0 +1,87 @@
+
+header {
+  background: rgb(21,167,170);
+  padding: 12px;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header li {
+  display: inline-block;
+  border: 1px solid #ffffff;
+
+}
+
+header a {
+  text-decoration: none;
+  color : #ffffff;
+  padding: 12px;
+  display: block;
+}
+
+.hero {
+  background: rgb(21,167,170) url('image/dessin.jpg') top center no-repeat;
+  color : #ffffff;
+  min-height: 100vh;
+  padding: 1px;
+  }
+
+
+section {
+  min-height: 90vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.even {
+  flex-direction: row-reverse;
+}
+
+.content,
+.illustration {
+  flex-basis: 480px;
+}
+
+.odd {
+  display: right;
+  background: rgb(255, 255,255);
+  }
+
+.even {
+  background: rgb(21, 167, 170);
+
+  }
+
+
+
+.image-block {
+  max-width: 400px;
+  max-height: 50vh;
+  border: 12px solid #15A7AA;
+
+}
+
+.image-block img {
+  width : 100%;
+display:block;
+
+}
+.image-block2 
+
+figcaption {
+  font-family: 'Fahkwang', serif;
+  font-style: italic;
+
+}
+
+footer {
+  min-height: 200px;
+  background: #15A7AA
+
+  ;
+  color : #fff;
+}
